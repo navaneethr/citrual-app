@@ -1,5 +1,4 @@
 # Citrual_App
-A Coding Challenge for Cirtual
 
 <h1>! Make Sure your Interent is working for this 
 App to work becuase it makes use of the CDNs from the internet and also the Database is hosted on mLab</h1>
