@@ -27,3 +27,14 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
     <li><h4>Now that you have installed all the dependencies, it is time to run the application, stay in the project folder on your command prompt and type "node server" and that should start your server on port 4001</h4></li>
     <li><h4>It is time to open the browser and go to "127.0.0.1:4001" or "localhost:4001", TADA....</h4></li>
 </ul>
+
+<h1>I hosted my database on mLab which provides online services for MongoDB and you can use it by following the steps : </h1>
+<ul>
+    <li><h4>To access my data, first one needs to install MongoDB onto their computers, once done, set environment variables</h4></li>
+    <li>
+        <h4>Go to command prompt now and type "mongo ds017726.mlab.com:17726/custdb -u admin -p admin" in your shell to connect to my online DB<h4>
+    </li>
+    <li><h4>once done, type "db.customers.find().pretty()" on your shell and press enter, you will have access to my data.</h4></li>
+</ul>
+
+
