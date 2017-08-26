@@ -40,3 +40,6 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
 </ul>
         <h3>Here is a Sample DB Schema with data</h3>
         <img src="https://image.ibb.co/i7wynQ/sample_Schema.png" alt="sampleSchem">
+        
+        <h1>Here is the Final Product</h1>
+        <img src="https://image.ibb.co/eOZ7gk/homePage.png" alt="homePage">
