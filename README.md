@@ -3,7 +3,7 @@
 <h2>Technology Statck Used</h2>
 <ul>
     <li>HTML5</li>
-    <li>CSS3/SASS</li>
+    <li>CSS3/SASS - Used PrePros to complie SCSS files to CSS</li>
     <li>W3.CSS</li>
     <li>jQuery</li>
     <li>AngularJS 1.6.4</li>
