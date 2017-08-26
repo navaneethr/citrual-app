@@ -36,5 +36,5 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
     </li>
     <li><h4>once done, type "db.customers.find().pretty()" on your shell and press enter, you will have access to my data.</h4></li>
 </ul>
-
-
+        <h3>Here is a Sample DB Schema with data</h3>
+        <img src="https://image.ibb.co/i7wynQ/sample_Schema.png" alt="sampleSchem">
