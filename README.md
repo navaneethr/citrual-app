@@ -4,6 +4,8 @@ A Coding Challenge for Cirtual
 <h1>! Make Sure your Interent is working for this 
 App to work becuase it makes use of the CDNs from the internet and also the Database is hosted on mLab</h1>
 
+<h2>The application is running on port 4001 so make sure there is no service attached to that port</h2>
+
 <h3>This is built using MEAN stack, Node and Express for server side scripting, 
 AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end database </h3>
 
