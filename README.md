@@ -14,7 +14,7 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
     <li>Install Node onto your system and NPM comes with it</li>
 </ul>
 
-<a href="https://nodejs.org/en/" alt="nodejs">Click to go to NodeJS official site</a>
+<a href="https://nodejs.org/en/"><img src="./project_images/nodeDownload.PNG"></a>
 
 <p>Let's get started....</p>
 
