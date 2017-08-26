@@ -63,4 +63,16 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
             <img src="https://image.ibb.co/gsS2gk/calender_Page.png" alt="calenderPage" width="70%">
             <h5>Profile Page</h5>
             <img src="https://image.ibb.co/dbXPu5/profile_Page.png" alt="profilePage" width="70%">
+            
+            <h1>Requirements Accomplished</h1>
+            <ul>
+                <li>Implemented the exact Wireframe as given in the Cirtual Image</li>
+                <li>All buttons on the header link to other pages while maintaining the header across all pages</li>
+                <li>The data doesn't come from local website, it comes from DB hosted on mLab</li>
+                <li>Search only Filters the data according to the name typed in the search bar</li>
+                <li>Maintained session state and data persists even after page refresh</li>
+                <li>Made the website responsive with an animated menu bar for small screens</li>
+            </ul>
+            
+            <h1>Thank you and have fun</h1>
          
