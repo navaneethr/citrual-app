@@ -50,7 +50,10 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
             <h5>A full functional Sidebar for Mobile View</h5>
             <img src="https://image.ibb.co/g3Hzu5/sideBar.png" alt="sideBar" width="50%">
             <h1>Applied Search Filters so one could filter by Name</h1>
+            <h5>Search with "C"</h5>
             <img src="https://image.ibb.co/jBpLZ5/search_With_C.png" alt="searchWithC">
+            <h5>Search with "Co"</h5>
             <img src="https://image.ibb.co/ggxk1k/search_With_Co.png" alt="searchWithCo">
+            <h5>Search with "Cou"</h5>
             <img src="https://image.ibb.co/kiEnE5/search_With_Cou.png" alt="searchWithCou">
          
