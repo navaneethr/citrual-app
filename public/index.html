@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Cirtual test</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/customerCtrl.js"></script>
+    <script src="scripts/script.js"></script>
+
+</head>
+
+<!-- myApp specifies that the whole body uses AngularJS -->
+
+<body ng-app="myApp">
+
+<!--Sidebar for Small and Medium Screens -->
+<!--W3 Classes are defined in the online W3 CSS library which have their own meaning -->
+<!--W3-hide-large helps this div to hide when the
+resoultion is of a large screen and shows up when the resolution is less than that of large screens -->
+
+<div class="w3-sidebar w3-bar-block w3-card-4 w3-border-right w3-hide-large" style="display:none;" id="mySidebar">
+
+    <button id="closeBtn" class="w3-bar-item w3-large w3-button w3-white">Close &times;</button>
+    <a href="#/!" class="w3-bar-item"><img src="./images/Home.png"></a>
+    <a href="#!inbox" class="w3-bar-item"><img src="./images/Inbox.png"></a>
+    <a href="#!calender" class="w3-bar-item"><img src="./images/Calendar.png"></a>
+    <a href="#!profile" class="w3-bar-item"><img src="./images/Profile.png"></a>
+
+</div>
+
+<div class="w3-hide-large" id="smallNav">
+
+    <button style="" class="w3-btn w3-xlarge w3-bar-item" id="threeBars"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <div class="w3-bar-item" style="display: flex;float: right">
+        <input ng-model="search.name" style="border-radius: 25px; margin: 7px;" class="w3-input w3-center w3-border w3-bar-item" placeholder="Search by Name" type="text">
+    </div>
+
+</div>
+
+<!--for Large Screens -->
+<!-- w3-hide-medium and w3-hide-small helps this div to hide
+when the screen is small and medium, and show up when the screen resolution is large -->
+
+<div class="w3-bar w3-hide-medium w3-hide-small w3-card" id="myNavbar">
+
+    <div style="width: 5%; float: left">
+        <a href="#/!" class="w3-bar-item w3-left">
+            <img src="images/Home.png">
+        </a>
+    </div>
+    <div style="width: 5%; float: left">
+        <a href="#!inbox" class="w3-bar-item w3-left">
+            <img src="images/Inbox.png">
+        </a>
+    </div>
+    <div style="width: 5%; float: left">
+        <a href="#!calender" class="w3-bar-item w3-left">
+            <img src="images/Calendar.png">
+        </a>
+    </div>
+    <div style="width: 80%; float: left;">
+        <div style="">
+            <input style="border-radius: 25px;width:90%; margin:7px 0px 0px 50px" ng-model="search.name" class="w3-hide-medium w3-hide-small w3-border w3-bar-item w3-left" placeholder="Search by Name" type="text">
+        </div>
+    </div>
+    <div style="width: 5%; float: right">
+        <a href="#!profile" class="w3-bar-item w3-right">
+            <img src="images/Profile.png">
+        </a>
+    </div>
+</div>
+
+
+<div style="clear: both;" ng-view>
+
+    <!-- ng-view helps in rendering views configured in the app.config in app.js file -->
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="angular" level="application" />
+    <orderEntry type="library" name="angular-agility-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-animate-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-block-ui-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-bootstrap-calendar-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-bootstrap-lightbox-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-breadcrumb-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-clipboard-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-cookie-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-cookies-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-deferred-bootstrap-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-dialog-service-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-dynamic-locale-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-environment-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-es-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-feature-flags-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-file-saver-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-formly-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-fullscreen-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-gettext-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-google-analytics-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-http-auth-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-loading-bar-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-modal-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-odata-resources-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-q-spread-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-resource-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-route-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-sanitize-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-tooltips-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angulartics-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="d3-array-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="d3-axis-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="d3-box-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="d3-brush-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="d3-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="d3.v4" level="application" />
+    <orderEntry type="library" name="express-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="jQuery-2.0.0" level="application" />
+    <orderEntry type="library" name="jquery-3.2.1" level="application" />
+    <orderEntry type="library" name="mongodb-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="mongoose-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="node-DefinitelyTyped" level="application" />
+  </component>
+</module>

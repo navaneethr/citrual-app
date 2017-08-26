@@ -1,0 +1,91 @@
+select {
+  overflow: hidden;
+  background: url(../images/down-arrow.png) no-repeat right white;
+  padding-left: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif; }
+
+body, html {
+  line-height: 1.8; }
+
+.w3-bar {
+  padding: 5px; }
+
+#myNavbar {
+  background: #E4AC66; }
+  #myNavbar a:hover {
+    background-color: #d78926; }
+
+.w3-bar-item img {
+  width: 40px; }
+
+#mySidebar {
+  background: #d78926; }
+  #mySidebar a:hover {
+    background-color: #E4AC66; }
+
+#threeBars {
+  background-color: #d78926; }
+  #threeBars:hover {
+    background-color: #E4AC66; }
+
+#tableHead {
+  background-color: #512310;
+  color: white; }
+
+#contentTable {
+  width: 100%; }
+  #contentTable th:first-child {
+    border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    -webkit-border-radius: 20px 0 0 0; }
+  #contentTable th:last-child {
+    border-radius: 0 20px 0 0;
+    -moz-border-radius: 0 20px  0 0;
+    -webkit-border-radius: 0 20px  0 0; }
+  #contentTable tr:nth-child(even) {
+    background-color: #f9eedf; }
+    #contentTable tr:nth-child(even) td:last-child select {
+      background-color: #f9eedf; }
+  #contentTable tr:nth-child(odd) {
+    background-color: ghostwhite; }
+
+#tableDiv {
+  border: 2px solid white !important;
+  border-radius: 20px 20px 0 0 !important;
+  overflow-x: auto;
+  clear: both; }
+
+#smallNav {
+  background-color: #E4AC66; }
+
+#tableContainer {
+  background-color: #E4AC66; }
+
+.done {
+  -webkit-filter: grayscale(100%) !important;
+  filter: grayscale(100%) !important;
+  color: grey; }
+
+.inProgress td:last-child select {
+  border: 2px solid #512310;
+  overflow: hidden;
+  background: url(../images/brown_down.PNG) no-repeat right white;
+  padding-left: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+.cancelled {
+  background-color: #FEE0E0 !important; }
+  .cancelled td:last-child select {
+    border: 2px solid red;
+    background-color: whitesmoke !important; }
+
+.cancelledImgC {
+  display: block !important; }
+
+.doneImgD {
+  display: block !important; }

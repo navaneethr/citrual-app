@@ -1,0 +1,55 @@
+<div id="tableContainer">
+
+    <!-- Everything inside this div uses features of customerCtrl-->
+    <div  id="tableDiv" ng-controller="customerCtrl">
+        <table id="contentTable" class="w3-table">
+
+            <tr style="background-color: #512310; color: white;">
+                <th width="5%">&nbsp;&nbsp;&nbsp;</th>
+                <th width="15%">Name</th>
+                <th width="15%">Technician</th>
+                <th width="10%">Order Date</th>
+                <th width="10%">Appt. Type</th>
+                <th width="10%">Cell Number</th>
+                <th width="15%">Email</th>
+                <th width="19%">Order State</th>
+            </tr>
+
+            <!-- ng-repeat is used to iterate and populate the fields in customerList
+            which is coming from app.js - Line 38.
+            It also has a filter which is coming from "search"
+            which has been defined in ng-model in index.html - line 41 & 69.
+            It also has a custom filter "startsWith which is defined in app.js.
+            ng-init is used to set the current state to the dropdown -->
+
+            <!--ng-class is defined to write styles, please check styles.scss for reference -->
+
+            <tr ng-repeat="cust in customerList | filter : search : startsWith" ng-init="selectedOption=cust.orderState" ng-class="selectedOption">
+                <td width="5%">
+                    <img ng-class="selectedOption+'ImgC'" style="display: none" src="../images/Cancel.png" width="30px">
+                    <img ng-class="selectedOption+'ImgD'" style="display: none" src="../images/done.png" width="30px">
+                </td>
+                <td width="15%">{{cust.name}}</td> <!-- Filling in information -->
+                <td width="15%">{{cust.technician}}</td>
+                <td width="10%">{{cust.orderDate}}</td>
+                <td width="10%">{{cust.apptType}}</td>
+                <td width="15%">{{cust.cellNumber}}</td>
+                <td width="15%">{{cust.email}}</td>
+                <td width="14%">
+                    <div>
+                        <!-- Update function passes 2 params, the cust._id which
+                        is coming from DB and  selected option, update function is declared in app.js -->
+                        <select ng-model="selectedOption" ng-change="update(cust._id, selectedOption)" style="border-radius: 5px; width: 100%">
+                            <option value="inProgress">In Progress</option>
+                            <option value="cancelled">Cancelled</option>
+                            <option value="done">Done</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>

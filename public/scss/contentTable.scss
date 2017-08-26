@@ -1,0 +1,30 @@
+//See home.html for all the style references in this file
+
+#contentTable{
+    width: 100%;
+    th:first-child{
+      //first th left border radius is 20px
+      border-radius: 20px 0 0 0;
+      -moz-border-radius: 20px 0 0 0;
+      -webkit-border-radius: 20px 0 0 0;
+    }
+    th:last-child{
+      //last th right border radius is 20px
+      border-radius: 0 20px 0 0;
+      -moz-border-radius: 0 20px  0 0;
+      -webkit-border-radius: 0 20px  0 0;
+
+    }
+    tr:nth-child(even){
+      background-color: $cirtualLight; //every even numbered tr's bg color is CirtualLight
+      td:last-child{
+        select{
+          //every even select bg color is CirtualLight unless !important is specifed else where
+          background-color: $cirtualLight;
+        }
+      }
+    }
+    tr:nth-child(odd){
+      background-color: ghostwhite; //every odd numbered tr's bg color is ghostwhite
+    }
+  }

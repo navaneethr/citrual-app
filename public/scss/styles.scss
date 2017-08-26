@@ -1,0 +1,108 @@
+@import "variables"; //variables -- check variables.scss
+
+select{ //styling each and every select - see home.html
+  overflow: hidden;
+  background: url(../images/down-arrow.png) no-repeat right white ;
+  padding-left:3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif} //setting a font
+
+body, html {
+  line-height: 1.8;
+}
+.w3-bar{
+  padding: 5px;
+}
+
+#myNavbar{
+  background: #E4AC66;
+  a{
+    &:hover{
+      //this effect applies when you hover on the 3 stripes menu icon when the UI is mobile based. - see index.html
+      background-color: $darkCirtualColor;
+    }
+  }
+}
+
+.w3-bar-item img{
+  width: 40px; //Setting home, profile, inbox and calender width index.html
+}
+
+#mySidebar{
+  //the side menu background color is a little darker version of the Cirtual color - see index.html
+  background: $darkCirtualColor;
+  a {
+    &:hover {
+      //When you hover on the side menu, the background color of those elements change to cirtual color - see index.html
+      background-color: $cirtualColor;
+    }
+  }
+}
+
+#threeBars{
+  background-color: $darkCirtualColor; //The three bars icon background color - see index.html
+  &:hover{
+    background-color: $cirtualColor; //When hovered over it changes to Cirtual Color - see index.html
+  }
+}
+
+#tableHead{
+    background-color: $cirtualDark; //setting table head to dark cirtual color. - see home.html
+    color: white;
+  }
+
+
+@import "contentTable"; // Check contentTable.scss
+
+#tableDiv{
+  border: 2px solid white !important; //White border around table heading - see home.html
+  border-radius: 20px 20px 0 0 !important;
+  overflow-x: auto; clear: both; //to get a scrollbar on the X axis when the screen resolution is low - see home.html
+}
+
+#smallNav{
+  //bg Color to navigation bar up top when the screen resolution is low - see index.html
+  background-color: $cirtualColor;
+}
+
+#tableContainer{
+  background-color: $cirtualColor; //To get the bg Color behind the table head. - see home.html
+}
+
+.done{
+  //These styles apply when the class dynamically changes in the Angular directive ng-class in home.html - see home.html line 18
+  //when ng-class="done", these syles get applied - see home.html, line 18
+  filter: grayscale(100%) !important;
+  color: grey;
+}
+
+@import "inProgress"; // Check inProgress.scss
+
+.cancelled{
+  //These styles apply when the class dynamically changes in the Angular directive ng-class in home.html - see home.html line 18
+  //when ng-class="cancelled", these syles get applied - see home.html, line 18
+  background-color: #FEE0E0 !important;
+  td:last-child{
+    select{
+      border: 2px solid red; //when the order is cancelled, the border is red
+      background-color: whitesmoke !important;
+    }
+  }
+}
+
+.cancelledImgC{
+  //cancelledImg is displayed to none at first, but when the class changes to cancelledImgC, the image is displayed.
+  //see home.html line 21 and 22
+  display: block !important;
+}
+
+.doneImgD{
+
+  //doneImg is displayed to none at first, but when the class changes to cancelledImgC, the image is displayed.
+  //see home.html line 21 and 22
+  display: block !important;
+}
+
