@@ -58,9 +58,9 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
             <img src="https://image.ibb.co/kiEnE5/search_With_Cou.png" alt="searchWithCou">
             <h1>Navigation to other pages while maintaining the header</h1>
             <h5>Inbox Page</h5>
-            <img src="https://image.ibb.co/jzFNgk/inbox_Page.png" alt="inboxPage" width="50%">
+            <img src="https://image.ibb.co/jzFNgk/inbox_Page.png" alt="inboxPage" width="70%">
             <h5>Calender Page</h5>
-            <img src="https://image.ibb.co/gsS2gk/calender_Page.png" alt="calenderPage" width="50%">
+            <img src="https://image.ibb.co/gsS2gk/calender_Page.png" alt="calenderPage" width="70%">
             <h5>Profile Page</h5>
-            <img src="https://image.ibb.co/dbXPu5/profile_Page.png" alt="profilePage" width="50%">
+            <img src="https://image.ibb.co/dbXPu5/profile_Page.png" alt="profilePage" width="70%">
          
