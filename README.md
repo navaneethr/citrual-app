@@ -18,11 +18,11 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
 
 <p>Let's get started....</p>
 
-<ol>
+<ul>
     <li><h4>Clone the repo and open the project folder</h4></li>
     <li><h4>Open your Command Prompt and use it to navigate to the project folder</h4></li>
     <li>
         <h4>First thing to do is run the command "npm install" to install all the dependancies, you do not need to run this command because I downloaded all the dependancies into the node_modules folder, but I'd suggest to do it since it is safer to know everything is installed perfectly.</h4>
     </li>
     <li><h4>Now that you have installed all the dependencies, it is time to run the application, stay in the project folder on your command prompt and type "node server" and that should start your server on port 4001</h4></li>
-</ol>
+</ul>
