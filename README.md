@@ -18,7 +18,6 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
 
 <p>Let's get started....</p>
 
-<h3>1. Clone the repo and open the project folder</h3>
-<h3>2. Open your Command Prompt and use it to navigate to the project folder</h3>
-<h3></h3>
-<h3></h3>
+<h3>Clone the repo and open the project folder</h3>
+<h3>Open your Command Prompt and use it to navigate to the project folder</h3>
+<h3>First thing to do is run the command "npm install" to install all the dependancies</h3>
