@@ -45,4 +45,5 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
             <h4>Laptop & Desktop View</h4>
             <img src="https://image.ibb.co/eOZ7gk/homePage.png" alt="homePage">
             <h4>Mobile and Tablet View</h4>
+            <h5>You could still scroll left and right to view additional data</h5>
             <img src="https://image.ibb.co/hObngk/homeMob.png" alt="homeMobile" width="50%">
