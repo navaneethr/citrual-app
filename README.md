@@ -1,7 +1,17 @@
 # Citrual_App
 
 <h2>Technology Statck Used</h2>
-<h4>HTML5, CSS3/SASS, jQuery, W3.CSS, AngularJS 1.6.4, MongoDB/mLab, Mongoose, ExpressJS, NodeJS</h4>
+<ul>
+    <li>HTML5</li>
+    <li>CSS3/SASS</li>
+    <li>W3.CSS</li>
+    <li>jQuery</li>
+    <li>AngularJS 1.6.4</li>
+    <li>MongoDB/mLab</li>
+    <li>Mongoose</li>
+    <li>ExpressJS</li>
+    <li>NodeJS</li>
+</ul>
 
 <h1>! Make Sure your Interent is working for this 
 App to work becuase it makes use of the CDNs from the internet and also the Database is hosted on mLab</h1>
