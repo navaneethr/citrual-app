@@ -42,4 +42,7 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
         <img src="https://image.ibb.co/i7wynQ/sample_Schema.png" alt="sampleSchem">
         <h1>Here is the Final Product</h1>
         <h2>Home<h2>
+            <h4>Laptop & Desktop View</h4>
             <img src="https://image.ibb.co/eOZ7gk/homePage.png" alt="homePage">
+            <h4>Mobile and Tablet View</h4>
+            <img src="https://image.ibb.co/hObngk/homeMob.png" alt="homeMobile">
