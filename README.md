@@ -48,4 +48,4 @@ AngularJS 1.6.4 for Front End and MongoDB hosted on mLab for the back end databa
             <h5>You could still scroll left and right to view additional data</h5>
             <img src="https://image.ibb.co/hObngk/homeMob.png" alt="homeMobile" width="50%">
             <h5>A full functional Sidebar for Mobile View</h5>
-            <img src="https://image.ibb.co/g3Hzu5/sideBar.png" alt="sideBar">
+            <img src="https://image.ibb.co/g3Hzu5/sideBar.png" alt="sideBar" width="50%">
