@@ -1,6 +1,6 @@
 # Citrual_App
 
-<h2>Technology Statck Used</h2>
+<h2>Technology Stack Used</h2>
 <ul>
     <li>HTML5</li>
     <li>CSS3/SASS - Used PrePros to complie SCSS files to CSS</li>
